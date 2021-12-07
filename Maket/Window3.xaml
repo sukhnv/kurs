@@ -1,0 +1,20 @@
+﻿<Window x:Class="Maket.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Maket"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Button Content="Справка" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="84" Background="#FF2E38F3" Height="35" RenderTransformOrigin="0.176,0.456" Click="Button_Click_1" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="АВТОСАЛОН" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="183,10,0,0" TextWrapping="Wrap" Text="г.Иваново" VerticalAlignment="Top" Width="95" FontWeight="Bold" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="424,10,0,0" TextWrapping="Wrap" Text="8-800-252-50-50" VerticalAlignment="Top" Height="24" Width="151" FontWeight="Bold" FontSize="18"/>
+        <Image Margin="704.253,10,10,351" Source="бвм.png" Stretch="Fill" RenderTransformOrigin="2.09,0.525"/>
+        <TextBlock HorizontalAlignment="Left" Margin="183,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="224" Width="478" FontFamily="Times New Roman" FontSize="20"><Run Text="Приложение предназначено для автоматизации работы"/><LineBreak/><Run Text="автосалона."/><LineBreak/><Run Text="Автор: Сухомлинов Никита Вячеславович"/><LineBreak/><Run Text="Версия: 1.0.0"/><LineBreak/><Run Text="Иваново 2021"/></TextBlock>
+
+    </Grid>
+
+
+</Window>
